@@ -13,6 +13,7 @@ public class UserService {
     @Transactional
     public UserResponse saveUser(UserRequest userRequest){
         User user = new User();
+
         user.setFirstName(userRequest.getFirstName());
         user.setLastName(userRequest.getLastName());
 
