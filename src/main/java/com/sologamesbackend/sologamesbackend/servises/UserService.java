@@ -15,7 +15,6 @@ public class UserService {
         User user = new User();
         user.setFirstName(userRequest.getFirstName());
         user.setLastName(userRequest.getLastName());
-
         user.setPassword(userRequest.getPassword());
         UserRepositoryImplementation userRepositoryImplementation = new UserRepositoryImplementation();
         userRepositoryImplementation.save(user);
