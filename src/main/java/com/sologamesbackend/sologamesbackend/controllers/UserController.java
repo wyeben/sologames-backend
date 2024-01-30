@@ -1,2 +1,5 @@
-package com.sologamesbackend.sologamesbackend.controllers;public class UserController {
+package com.sologamesbackend.sologamesbackend.controllers;
+
+public class UserController {
+
 }
